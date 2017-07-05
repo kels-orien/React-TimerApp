@@ -14,17 +14,21 @@ var Nav= React.createClass({
             <ul className ="menu">
               <li className="menu-text ">React Timer App</li>
               <li>
-                  <IndexLink to="/" activeClassName = "active" activeStyle = {{fontWeight: 'bold'}}>Timer</IndexLink>
+                  <IndexLink to="/" activeClassName = "active-link" activeStyle = {{fontWeight: 'bold'}}>Timer</IndexLink>
               </li>
               <li>
-                  <Link to="/" activeClassName = "active" activeStyle = {{fontWeight: 'bold'}}>Countdown</Link>
+                  <Link to="/" activeClassName = "active-link" activeStyle = {{fontWeight: 'bold'}}>Countdown</Link>
               </li>
 
             </ul>
         </div>
         <div className = "top-bar-right">
-          <h5>Kohwo</h5>
-          <h5>Orien</h5>
+
+          <ul className = "menu">
+            <li className = "menu-text">
+                Created by <a href = "/" target ="_blank">Kohwo Orien</a>
+            </li>
+          </ul>
 
         </div>
       </div>
