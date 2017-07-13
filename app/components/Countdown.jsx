@@ -38,11 +38,11 @@ var Countdown = React.createClass({
   },*/
 
   //function called when present component is about be be removed from DOM
-  componentWillUnMount: function () {
+/*  componentWillUnMount: function () {
     //console.log('componentWillUnMount');
     clearInterval(this.timer);
     this.timer = undefined;
-  },
+  },*/
   startTimer: function () {
     this.timer = setInterval(() => {
       var newCount = this.state.count - 1;
