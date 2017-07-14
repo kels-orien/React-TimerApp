@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "Timer App",
   "version": "1.0.0",
   "description": "Simple react timer app",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "karma start",
     "start": "node server.js"
   },
-  "author": "Andrew Mead",
+  "author": "Kohwo Orien",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
